@@ -1,7 +1,0 @@
-I have some ideas that may make my AI smarter, but I didn't put them in my code.(AI in my HW12 will randomly make legal move)
-There are two types of AI I come up with, the first one is attacking style, second one is defending style.
-	For attackting style, AI will make its first move randomly, then scan the game board everytime before its play. If there are 2 in a row or 3 in a row, AI will drop its disk to make a higher connect based on the scan result. The priority is 3 in a row > 2 in a row > 1.
-Attacting AI will not consider players move.
-	For defending style, AI will scan the game board and alway block user's disk. The priority is also 3 in a row > 2 in a row > 1. If the higest priority choise don't have legal move, AI will choose second higest.
-How AI scan the game board is very similar with how my program check user wins. The difference is AI not searching for connect 4, it will search connect 3 , connect 2 and single disk.
-In future I may improve it by combine these two types AI together. The biggest problem is determine whitch style(attacting/defending) has higher priority in current round.
